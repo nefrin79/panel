@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="info-card">
-            <img src="{{auth()->user()->picture}}" class="profile-image rounded-circle"
+            <img src="{{ asset('admin/img/admin.png') }}" class="profile-image rounded-circle"
                  alt="{{auth()->user()->name}}">
             <div class="info-card-text">
                 <a href="#" class="d-flex align-items-center text-white">
@@ -29,7 +29,7 @@
                                         {{auth()->user()->name}}
                                     </span>
                 </a>
-                <span class="d-inline-block text-truncate text-truncate-sm">Toronto, Canada</span>
+                <span class="d-inline-block text-truncate text-truncate-sm">ایران</span>
             </div>
             <img src="/admin/img/card-backgrounds/cover-2-lg.png" class="cover" alt="cover">
             <a href="#" onclick="return false;" class="pull-trigger-btn" data-action="toggle"
