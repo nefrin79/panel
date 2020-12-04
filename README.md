@@ -84,3 +84,7 @@ You can see login page below
 You can see Dashboard page below
 
 ![alt text](https://github.com/amiranbari/panel/blob/master/images/index.png?raw=true)
+
+You can see Dynamic menu page below
+
+![alt text](https://github.com/amiranbari/panel/blob/master/images/menu.png?raw=true)
