@@ -77,5 +77,10 @@ password: 123456
 
 enjoy it.
 
+You can see login page below
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/amiranbari/panel/blob/master/images/login.png?raw=true)
+
+You can see Dashboard page below
+
+![alt text](https://github.com/amiranbari/panel/blob/master/images/index.png?raw=true)
