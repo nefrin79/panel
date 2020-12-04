@@ -26,8 +26,8 @@
                 <div class="d-flex align-items-center container p-0">
                     <div class="page-logo width-mobile-auto m-0 align-items-center justify-content-center p-0 bg-transparent bg-img-none shadow-0 height-9">
                         <a href="javascript:void(0)" class="page-logo-link press-scale-down d-flex align-items-center">
-                            <img src="/admin/img/logo.png" alt="SmartAdmin WebApp" aria-roledescription="logo">
-                            <span class="page-logo-text mr-1">SmartAdmin WebApp</span>
+                            <img src="/admin/img/logo.png" alt="ورود به سامانه" aria-roledescription="logo">
+                            <span class="page-logo-text mr-1">ورود به سامانه</span>
                         </a>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                                     @csrf
                                     <div class="form-group">
                                         <label class="form-label" for="username">{{__('auth.login.email')}}  </label>
-                                        <input type="email" id="username" name="email" class="form-control form-control-lg" placeholder="{{__('auth.login.email.placeholder')}}" value="drlantern@gotbootstrap.com" required>
+                                        <input type="email" id="username" name="email" class="form-control form-control-lg" placeholder="{{__('auth.login.email.placeholder')}}" value="admin@gmail.com" required>
                                         @if(isset($errors) && $errors->get('email'))
                                             <div class="invalid-feedback" style="display:block">{{__('auth.login.email.feedback')}} </div>
                                         @else
@@ -61,7 +61,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label class="form-label" for="password">{{ __('auth.password') }}</label>
-                                        <input type="password" id="password" name="password" class="form-control form-control-lg" placeholder="{{ __('auth.password') }}" value="password123" required>
+                                        <input type="password" id="password" name="password" class="form-control form-control-lg" placeholder="{{ __('auth.password') }}" value="123456" required>
                                         <div class="invalid-feedback">{{__('auth.login.password.feedback')}}</div>
                                         <div class="help-block">{{ __('auth.password') }}</div>
                                     </div>
