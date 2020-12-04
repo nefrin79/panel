@@ -78,4 +78,4 @@ password: 123456
 enjoy it.
 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/[amiranbari]/[panel]/blob/[master]/images/login.png?raw=true)
