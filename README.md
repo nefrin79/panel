@@ -1,3 +1,5 @@
+See Document here: https://amiranbari.github.io/panel/
+
 config your database in .env
 
 run composer require amiranbari/panel:dev-master
